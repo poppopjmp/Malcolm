@@ -1,4 +1,4 @@
-FROM debian:buster-slim AS build
+FROM debian:12.9-slim AS build
 
 ENV DEBIAN_FRONTEND noninteractive
 
